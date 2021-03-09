@@ -14,6 +14,10 @@ inputs:
     description: 'Context path (Default: .)'
     required: true
     default: '.'
+  dockerfile:
+    description: 'Dockerfile name (Default: Dockerfile)'
+    required: false
+    default: 'Dockerfile'
   gcr_host:
     description: 'Google Container Registry Host (Default: gcr.io)'
     required: true

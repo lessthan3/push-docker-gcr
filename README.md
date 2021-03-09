@@ -18,6 +18,12 @@ Path to the context directory (containing the Dockerfile).
 
 Default: `.`
 
+### `dockerfile`
+
+Name of dockerfile.
+
+Default: `Dockerfile`
+
 ### `gcr_host`
 
 Google Container Registry Host
